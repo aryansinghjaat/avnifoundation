@@ -1,0 +1,303 @@
+*{
+  margin: 0;
+  padding:0;
+  scroll-behavior: smooth;
+  
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+}
+
+/*navbar*/
+
+
+
+.img-fluid{
+  width: 60px;
+  border-radius: 40%;
+}
+
+
+
+
+
+/*home*/
+.home{
+ box-sizing: border-box;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+.scroll-text {
+
+  padding-top: 80px;
+  font-size:xx-large;
+  font-weight: 800;
+  background-color: bisque;
+  }
+
+
+
+/*about*/
+
+.about{
+  background-color:rgb(250, 243, 234);
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+.aboutcontent{
+ padding: 50px;
+}
+.aboutcontent img{
+  width:280px;
+  float:left;
+  padding:30px;
+}
+.aboutcontent p{
+  padding-top: 30px;
+}
+.title{
+   
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: solid;
+  padding:40px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 25px;
+ 
+}
+button{
+  border: 2px solid grey;
+  background-color: yellow;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+/*-services-*/
+
+.services{
+  background-color:lightsteelblue;
+  padding: 60px;
+}
+
+.col{
+  border-radius: 12px;
+  box-shadow:  10px 15px 20px rgba(0, 0, 0, 0.22);
+  transition: all 0.7s ease;
+  box-sizing: border-box;
+}
+
+.row-cols-1>*{
+  padding: 35px;
+}
+
+.card-img, .card-img-top{
+  padding: 20px;
+}
+
+
+/*mission*/
+
+h3{
+  color: blue;
+}
+h5{
+  color: blue;   
+}
+.mission{
+  width: 100%;
+  padding: 170px;
+  background-color:rgb(250, 243, 234);
+}
+.mission p{
+  color:black;
+}
+.box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-content: space-between; 
+}
+.box1{
+  width: 49%;
+  background-color:hsl(0, 0%, 80%);
+  padding: 10px;    
+}
+.box1 p{
+  color: black;
+}
+
+.box2{
+  width: 48%;
+  background-color:hsl(0, 0%, 80%);
+  padding: 10px;
+  
+}
+.box2 P{
+color: black;
+}
+
+
+
+/*project*/
+
+.pimg img{
+  width: 100%;
+  border-radius: 0;
+}
+.pcard{
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+
+/*-contact us-*/
+.contact{
+  background-color: lightsteelblue;
+}
+.contact-content{
+  width: 100%;
+padding: 30px;
+  display: flex;
+}
+.left-contact{
+width: 30%;
+background-color: black;
+color: aliceblue;
+text-align: center;
+border-radius: 50px;
+border: 12px solid grey;
+padding: 20px;
+
+}
+.left-contact .left-contact-details{
+  padding: 10px;
+
+}
+.left-contact .title2{
+  font-size: 27px;
+  color: royalblue;
+}
+.right-contact{
+width: 70%;
+padding-left: 60px;
+
+}
+.form-control{
+  border: 1px solid grey!important;
+}
+/*footer*/
+
+.fcolor{
+  color: aliceblue!important;
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  color: white!important;
+}
+
+
+
+
+
+
+
+
+
+
+/*--responsivness--*/
+
+@media  screen and (max-width:750px) {
+  .aboutcontent img{
+    width: 110px;
+    padding: 0%;
+  }
+.home{
+  padding: 0;
+}
+
+
+/*-about-*/
+
+.aboutcontent{
+  padding: 20px;
+ }
+
+ 
+/*-services-*/
+
+.services{
+ 
+  padding: 0;
+}
+
+
+
+/*mission*/
+.mission{
+  padding: 35px;
+}
+#name{
+  font-size: 26px;
+}
+.box{
+  flex-direction: column;
+}
+.box1{
+  width: 100%;
+  background-color: lightcyan;
+}
+.box2{
+  width: 100%;
+  background-color: lightcyan;
+}
+
+
+/*projects*/
+.pcard{
+  overflow-y: scroll;
+  height: 50vh;
+}
+.p-5{
+  padding: 5px!important;
+}
+/*contact*/
+
+  .contact-content{
+      flex-direction: column;
+      padding: 2px;
+      box-sizing: border-box;
+  }
+  .left-contact {
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+  }
+ 
+  .right-contact{
+      width: 100%;
+      padding-top: 20px;
+      padding-left: 10;
+  }
+  .right-contact .row{
+margin-right: 0;
+  }
+
+}
+
+
+
+
+
+
+
